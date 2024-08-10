@@ -2,7 +2,7 @@ use anchor_lang::prelude::*;
 pub mod instructions;
 pub mod error;
 
-declare_id!("cpt2VFjNhfWPymz3GiF14RWKi4FekDe5ozzVZWVdWkK");
+declare_id!("2Mwjugz5ULsLFiArfw6d1xHrGnuCfzW3CXor2x9SBziB");
 
 #[program]
 pub mod marketcap_game {

@@ -4,14 +4,14 @@
 resolution = true
 skip-lint = false
 
-[programs.localnet]
-top_cap_game = "cpt2VFjNhfWPymz3GiF14RWKi4FekDe5ozzVZWVdWkK"
+[programs.devnet]  # Update to deploy on Devnet
+top_cap_game = "2Mwjugz5ULsLFiArfw6d1xHrGnuCfzW3CXor2x9SBziB"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "Localnet"
+cluster = "devnet" 
 wallet = "~/.config/solana/id.json"
 
 [scripts]
