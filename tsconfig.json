@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "typeRoots": ["./node_modules/@types"],
+    "types": ["node", "chai"],
+    "outDir": "./dist",
+    "sourceMap": true
+  },
+  "include": [
+    "./programs/top-cap-game/**/*.ts",
+    "./migrations/**/*.ts",
+    "./tests/**/*.ts"
+  ]
+}
